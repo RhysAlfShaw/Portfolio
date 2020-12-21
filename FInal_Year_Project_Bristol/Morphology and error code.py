@@ -2,7 +2,10 @@
 """
 Created on Thu Mar 12 10:45:13 2020
 
-@author: rs17612
+@author: Rhys Shaw
+
+This program calculates the Morphology metric as discussed in my Final year project. It also estimates it error using a bootstrapping technique. Included in this folder is a
+.fits file what will need to be downloaded to test and use this code.
 """
 
 from astropy.io import fits
@@ -26,7 +29,7 @@ class morph_statistic:
 
         A = np.histogram2d(x,y,NBINS)[0]
         #print(A)
-        #plt.imshow(A,norm=LogNorm())
+        plt.imshow(A,norm=LogNorm())
         return A
 
     def cluster_symetry(A,N):
@@ -69,7 +72,7 @@ class morph_statistic:
         disym = []
         for n in range(0,Ni):
         
-            print(n)
+            #print(n)
             An = np.zeros((len(A),len(A)))
             for i in range(0,len(A)-1):
                 for j in range(0,len(A)-1):
@@ -95,7 +98,7 @@ fitsfile = np.array([['13517_remorph.fits',62]])
 N = int(fitsfile[0,1])*2
 A = morph_statistic.extract_fits(fitsfile[0,0], N)
 morph_stat, norm ,vec = morph_statistic.cluster_symetry(A,N)
-Mean, sd = morph_statistic.sym_error(A,N, 10000)
+Mean, sd = morph_statistic.sym_error(A,N, 100) #iteration number is made smaller so that computational time is slower
 print('Morph stat: ',morph_stat)
 print('Mean :',Mean)
 print('Sd :',sd)

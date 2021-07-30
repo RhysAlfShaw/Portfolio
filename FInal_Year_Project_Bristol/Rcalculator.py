@@ -2,11 +2,13 @@
 """
 Created on Wed Dec 18 20:15:17 2019
 
-@author: rhysc
+@author: Rhys Alfred Shaw
 
-This code was created for use in my Final Year Project, Where it would caclcuate the size of R500 given kT(clusters ICM temperature) 
-and its redshift. Its a GUI made with tkinter to help the work flow when analyseing cluster observations. 
-It is essentially a custom GUI calculator.
+This code was created for use in my Final Year Project, Where it would calculcuate the size of the galaxy clusters radius
+R500 given kT(clusters ICM temperature) and its redshift. 
+Its a GUI made with tkinter to help the work flow when analyseing cluster observations. 
+
+On the most basic level its a custom GUI calculator.
 
 """
 #import cosmolopy as cos

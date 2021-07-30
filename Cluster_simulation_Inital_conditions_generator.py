@@ -1,4 +1,9 @@
 """
+MSC 2021 Summer Research Project (on going)
+(Investigating the stability of planetary systems around galaxy clusters.)
+
+AUTHOR: Rhys Alfred Shaw
+
 THIS PROGRAM/LIBRARY CREATES STELLAR CLUSTER BASED ON USER INPUTS.
 The goal of this program is to reliably create stellar cluster to be simulated for ~2Myrs
 It allows the user to choose distribution (UNIFORM OR FRACTAL), IMF and energy balance (virial ratio, q).

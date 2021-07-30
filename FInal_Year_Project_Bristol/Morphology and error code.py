@@ -2,10 +2,14 @@
 """
 Created on Thu Mar 12 10:45:13 2020
 
-@author: Rhys Shaw
+@author: Rhys Alfred Shaw
 
-This program calculates the Morphology metric as discussed in my Final year project. It also estimates it error using a bootstrapping technique. Included in this folder is a
+This program calculates the Morphology metric as discussed in my Final year project. It is a type of measurement of a galaxy clusters 
+intra-cluster medium distribution. And gives an insight into the dynamics of the cluster.
+
+It also estimates it error using a bootstrapping technique. Included in this folder is a
 .fits file what will need to be downloaded to test and use this code.
+
 """
 
 from astropy.io import fits

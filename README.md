@@ -8,7 +8,7 @@
  
  -  The techniques used in my BSc project analyising Galaxy Clusters.
  -  The End-to-End analysis of a gravitational wave event.
- -  A Library to create stellar clusters with desired condtions and planetary systems, developed for my on going MSc porject on the stability of planetary systesm in stellar clusters.
+ -  A Library to create stellar clusters with desired condtions and planetary systems, developed for my on going MSc porject on the stability of planetary systems in stellar clusters.
  -  A MCMC algorithm for finding best fit parameters for a preprocessed gravitational wave event.
  -  A Machine learning case study, testing multiple models on a online retailers datasets to predict user purchase intensions.
  -  A Simulation of a particle detector using Monte-carlo methods.

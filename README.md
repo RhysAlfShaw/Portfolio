@@ -4,7 +4,7 @@
  
  The Jupiter notebooks should be visible on github (or they can be opened in google colab).
 
- ## This Portfolio Contain the following:
+ ## This Portfolio Contains the following:
  
  -  The techniques used in my BSc project analyising Galaxy Clusters.
  -  The End-to-End analysis of a gravitational wave event.
